@@ -86,6 +86,9 @@ body{
 .para3 {
     font-size:20px;
     font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    color:#ffffff;
+    
 }
 
 .form {
@@ -314,3 +317,143 @@ background-color:black;
     display: flex;
     justify-content: flex-end;
 }  
+
+.qtab {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+} 
+
+.qtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 50px;
+    margin-top:50px ;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    border-style: solid;
+    width: 800px;
+    height:70px;
+    background-color: #303030;
+    border-style: none;
+    cursor: pointer;
+   
+}
+
+.q1 {
+   margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.more {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    border-style: solid;
+    width: 800px;
+    height:70px;
+    background-color: #303030;
+    border-style: none;
+    cursor: pointer;
+   
+}
+
+.inputemail2 {
+    width: 500px;
+    height: 54px;
+    
+}
+
+.text {
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    color:#ffffff;
+    
+}
+
+.getstarted2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #de0611;
+    display: block;
+    width: 200px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 2px;
+}
+
+.form2 {
+    display: flex;
+
+}
+
+.colour {
+    background-color: black;
+}
+
+.footer {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+    background-color:black;
+
+}
+
+.footerlist {
+    
+    color: white;
+    
+}
+
+.footer .footerlist {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+    
+    
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+    
+}
+.footerlist ul {
+    list-style: none;
+}
+
